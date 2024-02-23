@@ -1,0 +1,97 @@
+ /* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: royalblue;
+  color: #fff;
+  height: 50px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.additional-info {
+  font-weight: bold;
+  margin: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Metrics display styling */
+.metrics-display {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  height: 100px;
+}
+
+.metric-card {
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+.metric-card:hover{
+  background-color: royalblue;
+}
+
+/* Post feed styling */
+.post-feed {
+  /* Add styling as needed */
+}
+
+/* Notifications panel styling */
+.notifications-panel {
+  /* Add styling as needed */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: royalblue;
+  color: #fff;
+}
+
+/* Buttons styling */
+button {
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+  /* Add responsive styling as needed */
+}
